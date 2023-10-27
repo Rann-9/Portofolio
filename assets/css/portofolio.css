@@ -731,3 +731,37 @@ span.color {
         margin-left: 105px;
     }
 }
+
+@media screen and (max-width: 320px) {
+    .crtf {
+        display: flex;
+        justify-content: center;
+    }
+
+    .crtf img {
+        width: 350px;
+    }
+
+    .layer {
+        margin-left: 20px;
+        width: 87.9%;
+    }
+    
+    .wbs {
+        display: flex;
+        justify-content: center;
+    }
+
+    .wbs img {
+        width: 300px;
+    }
+
+    .layers {
+        margin-left: 35px;
+        width: 77.4%;
+    }
+
+    .wbtn {
+        margin-left: 70px;
+    }
+}
