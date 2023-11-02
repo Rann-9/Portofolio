@@ -515,7 +515,7 @@ span.color {
 .crtf-list {
     display: grid;
     grid-template-columns: repeat(3, 50fr);
-    grid-gap: 50px;
+    grid-gap: 40px;
     margin-top: 50px;
 }
 
