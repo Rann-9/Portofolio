@@ -1,7 +1,4 @@
-@font-face {
-    font-family: Barclays;
-    src: url(/assets/fonts/FontsFree-Net-Barclays-Premier-League.ttf);
-}
+@import url('https://fonts.cdnfonts.com/css/premier-league');
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
 
@@ -34,7 +31,7 @@
 }
 
 span.j {
-    font-family: 'Barclays';
+    font-family: 'Premier League', sans-serif;
     color: #ffae00;
 }
 
@@ -43,7 +40,7 @@ span.color {
 }
 
 .logo {
-    font-family: 'Barclays';
+    font-family: 'Premier League', sans-serif;
     font-size: 40px;
     color: white;
     text-decoration: none;
@@ -278,20 +275,20 @@ span.color {
 
 @media screen and (max-width: 376px) {
     .home-image {
-        width: 150px;
-        height: 150px;
-        margin-top: 110px;
+        width: 190px;
+        height: 190px;
+        margin-top: 100px;
         border: 30px #ffae00 solid;
     }
 
     .home-image img {
-        max-width: 89.9px;
-        margin-top: 1px;
-        margin-left: 0.5px;
+        max-width: 129px;
+        margin-top: 1.9px;
+        margin-left: 0.3px;
     }
 
     .home-content {
-        margin-bottom: 100px;
+        margin-bottom: 70px;
     }
 
     .home-content h1 {
@@ -303,7 +300,7 @@ span.color {
     }
 
     .btn {
-        font-size: 9px
+        font-size: 15px
     }
 }
 
@@ -460,6 +457,28 @@ span.color {
     }
 }
 
+@media screen and (max-width: 321px) {
+    .about-col-1 img {
+        margin-left: 80px;
+    }
+
+    .about-col-2 p {
+        text-align: center;
+    }
+
+    #skills {
+        margin-left: 25px;
+    }
+
+    #experience {
+        margin-left: 25px;
+    }
+
+    #school {
+        margin-left: 25px;
+    }
+}
+
 /* Portofolio */
 
 #portofolio {
@@ -502,7 +521,7 @@ span.color {
 .container h2.web::after {
     position: absolute;
     content: '';
-    width: 170px;
+    width: 130px;
     height: 3.5px;
     left: 0;
     right: 0;
@@ -680,6 +699,12 @@ span.color {
 
     .wbtn {
         margin-left: 130px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .container h1 {
+        margin-left: 95px;
     }
 }
 
